@@ -8,18 +8,13 @@ body {
 
 
 .bck {
- /* The image used */
-  background-image: url("http://julienhugues.fr/BG_Vista9.jpeg");
+  background-color: #7863ff ;
 
-  /* Add the blur effect */
   filter: blur(4px);
   -webkit-filter: blur(4px);
 
-
-  /* Full height */
   height: 100%;
 
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +26,7 @@ body {
 
 .bg-text {
 
-  background-color: rgba(1,0.8,0.8, 0.8); /* Black w/opacity/see-through */
+  background-color: rgba(1,0.8,0.8, 0.8);
   color: white;
   font-weight: bold;
   font-family: Arial;
