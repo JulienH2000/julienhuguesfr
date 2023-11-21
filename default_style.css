@@ -1,0 +1,91 @@
+
+body {
+	
+	position: relative;
+	
+
+}
+
+
+.bck {
+ /* The image used */
+  background-image: url("http://julienhugues.fr/BG_Vista9.jpeg");
+
+  /* Add the blur effect */
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+  transform: scale(1.05); 
+}
+
+
+.bg-text {
+
+  background-color: rgba(1,0.8,0.8, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  border: 12px solid #6DD5FF;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  z-index: 0;
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #F3B9FF;
+  /* transform: translate(-50%, -50%); */
+  position: relative;
+  top: 12%;
+
+}
+
+
+.button:hover {
+  background-color: #E058FD;	
+}
+
+.button1 {
+  background-color: #7863ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial;
+  margin: 4px 2px;
+  cursor: pointer;
+  /* transform: translate(-50%, -50%); */
+}
+
+.button1:hover {
+		background-color: #4c30ff;	
+}
+
